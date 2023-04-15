@@ -1,0 +1,51 @@
+/* General styles */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	background: #48b3da;
+	background-image: url('https://wallpaperaccess.com/full/1900851.png');
+  }
+  
+  /* Signup form styles */
+  .signup-form {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	padding: 40px;
+	background-color: #15b48f;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+  
+  .signup-form h2 {
+	text-align: center;
+	color: #1b1a1a;
+	margin-top: 0;
+	font-size: 30px;
+  }
+  
+  .signup-form input[type=text],
+  .signup-form input[type=email],
+  .signup-form input[type=password] {
+	width: 100%;
+	padding: 18px;
+	border: none;
+	border-radius: 4px;
+	margin-bottom: 20px;
+	background-color: #f5f5f5;
+	font-size: 20px;
+  }
+  
+  .signup-form button[type=submit] {
+	background-color: #dd5541;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	padding: 18px 20px;
+	cursor: pointer;
+	width: 100%;
+	font-size: 20
+  

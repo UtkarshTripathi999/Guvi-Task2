@@ -1,0 +1,37 @@
+
+header {
+	background-color: #42a439;
+	color: #fff;
+	padding: 40px;
+	text-align: center; /* added to center the navigation bar */
+  }
+  
+  nav {
+	display: inline-block;
+  }
+  
+  nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: inline-block; /* added to center the menu items */
+  }
+  
+  nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+  }
+  
+  nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px; /* increased font size */
+	padding: 20px; /* increased padding */
+	border-radius: 5px;
+  }
+  
+  nav ul li a:hover {
+	background-color: #fff;
+	color: #333;
+  }
+  
